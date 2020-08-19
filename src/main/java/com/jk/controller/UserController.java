@@ -10,7 +10,9 @@ public class UserController {
 
     @RequestMapping("/hello")
     public  String hello(){
+        System.out.println("你好呀");
         return " hello word";
+
     }
 
 
