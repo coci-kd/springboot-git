@@ -9,6 +9,6 @@ public class UserController {
 
     @RequestMapping("/hi")
     public  String hi(){
-        return  "hi lalala";
+        return  "hi lalala , how are you wangchao?";
     }
 }
